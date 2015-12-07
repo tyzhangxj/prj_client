@@ -1,0 +1,2 @@
+00 22 * * * mysqldump -u root -pxxxxxx databasesname > /xx/xx/abc.sql
+10 22 * * * curl -T abc.sql -H "Content-Type:text/plain" "url://www.xxx.com"$(date +\%Y\%m\%d)
